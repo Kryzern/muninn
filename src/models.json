@@ -1,0 +1,119 @@
+[
+ {
+  "id": "fast",
+  "name": "Fast",
+  "arch": "ViT-B/32",
+  "dim": 512,
+  "blurb": "Quick to set up and quick on any PC, integrated graphics included. Good for most libraries.",
+  "files": [
+   {
+    "name": "image-f16.onnx",
+    "size": 176226270,
+    "sha256": "ecddafd4b5ea1a35da49ee4fa1e95165080e64dff645a0da7ea1eb0becc18209",
+    "cpu": false
+   },
+   {
+    "name": "text-f16.onnx",
+    "size": 127476647,
+    "sha256": "1e9e87cfbd665dd53f27c098e9fd355e30124bc6ca83da3dbb701da0cfcd6b2f",
+    "cpu": false
+   },
+   {
+    "name": "tokenizer.json",
+    "size": 2224053,
+    "sha256": "d8b124290bc4bcd18cd3f72747f525e2a1d8c266cf3089e52da38ee417564ac5",
+    "cpu": false
+   },
+   {
+    "name": "image-f32.onnx",
+    "size": 351780933,
+    "sha256": "bbbcffaba493d538408f057d1f43dbd7987833c2ae9af396fb26e9b61634b597",
+    "cpu": true
+   },
+   {
+    "name": "text-f32.onnx",
+    "size": 254342697,
+    "sha256": "4fbbe2d9b32388cec9aab7f537c75b3c9c0ae848988b4dc5d9bc2856dc77bf95",
+    "cpu": true
+   }
+  ]
+ },
+ {
+  "id": "balanced",
+  "name": "Balanced",
+  "arch": "ViT-B/16",
+  "dim": 512,
+  "blurb": "Noticeably better at small details and busy scenes. Reading your photos takes about three times longer.",
+  "files": [
+   {
+    "name": "image-f16.onnx",
+    "size": 172635624,
+    "sha256": "f9f6fdaf13d40de7eaf1d4ebea121e5ffde98eb38738ad92b669799dd5801ac9",
+    "cpu": false
+   },
+   {
+    "name": "text-f16.onnx",
+    "size": 127226362,
+    "sha256": "8f2b5ea9e9d7931dea6e009edc37a7ad798f927f817c06e2a06a0fa43594f5f7",
+    "cpu": false
+   },
+   {
+    "name": "tokenizer.json",
+    "size": 2224053,
+    "sha256": "d8b124290bc4bcd18cd3f72747f525e2a1d8c266cf3089e52da38ee417564ac5",
+    "cpu": false
+   },
+   {
+    "name": "image-f32.onnx",
+    "size": 344949373,
+    "sha256": "e2957f9eabeeef173605a7a7847585c9983d1fb62a3b6f30e54dd6b9c8e9f482",
+    "cpu": true
+   },
+   {
+    "name": "text-f32.onnx",
+    "size": 254158594,
+    "sha256": "cd4cad253dbdda27a7964745bbe0381c159a2e04507c502b907411b49f2dba0e",
+    "cpu": true
+   }
+  ]
+ },
+ {
+  "id": "best",
+  "name": "Best",
+  "arch": "ViT-L/14",
+  "dim": 768,
+  "blurb": "The most accurate. Wants a dedicated graphics card, and reading a large library takes a while.",
+  "files": [
+   {
+    "name": "image-f16.onnx",
+    "size": 608428854,
+    "sha256": "4658544debfc93c5725733b5aaa884c0186e123c13f572e8434d36ea20856973",
+    "cpu": false
+   },
+   {
+    "name": "text-f16.onnx",
+    "size": 247670799,
+    "sha256": "7b47555b19c99641e7c492e7b520f11db20515bf52cf8f01a2b6f314f367cb8e",
+    "cpu": false
+   },
+   {
+    "name": "tokenizer.json",
+    "size": 2224053,
+    "sha256": "d8b124290bc4bcd18cd3f72747f525e2a1d8c266cf3089e52da38ee417564ac5",
+    "cpu": false
+   },
+   {
+    "name": "image-f32.onnx",
+    "size": 1216219403,
+    "sha256": "52b7b79f4b1281f2850f29a3596b06fbcb8bb9afe2179a54a2ebd7470fae8c5c",
+    "cpu": true
+   },
+   {
+    "name": "text-f32.onnx",
+    "size": 495047539,
+    "sha256": "69e42b92e3b7080c2c1a0fac09d7223545a529753930aaedb87b1d473b8896a2",
+    "cpu": true
+   }
+  ]
+ }
+]
