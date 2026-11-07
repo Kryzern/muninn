@@ -1473,7 +1473,8 @@ impl App {
                             let track = Rect::new(btn.x, btn.y - 4.0, btn.w, 4.0);
                             g.fill_round(track, 2.0, Color::gray(1.0, 0.10 * a));
                             g.fill_round(Rect::new(track.x, track.y, track.w * f, 4.0), 2.0, Color::gray(0.9, a));
-                            g.text(&format!("{:.0}%  ·  {} of {}", f * 100.0, models::size_label((f as f64 * d.total as f64) as u64), models::size_label(d.total)), &g.fonts.small, Rect::new(btn.x - 60.0, track.y - 30.0, btn.w + 60.0, 24.0), MID.alpha(a));
+                            // right-aligned over the bar, clear of the description beside it
+                            g.text_right(&format!("{:.0}%  ·  {} of {}", f * 100.0, models::size_label((f as f64 * d.total as f64) as u64), models::size_label(d.total)), &g.fonts.small, Rect::new(btn.x, track.y - 30.0, btn.w, 24.0), MID.alpha(a));
                             self.button(g, Rect::new(btn.x + 70.0, btn.y + 8.0, 100.0, 34.0), "Cancel", false, Act::Cancel, controls, a);
                         }
                     }
